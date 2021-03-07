@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">RestoClientApp</string>
+
+    <!-- Page d'accueil -->
+    <string name="home_page_title">A decouvrir</string>
+    <string name="home_page_last_plant_section">Derniere plantes</string>
+
+    <!-- Page de collection -->
+    <string name="collection_page_title">Ma collection</string>
+
+    <!-- Page d'ajout de plantes -->
+    <string name="add_plant_page_title">Ajout d\'une plante</string>
+    <string name="add_plant_upload_button">Charger Image</string>
+    <string name="add_plant_page_name_input">Ajout d\'une plante</string>
+    <string name="add_plant_page_description_input">Ajout d\'une plante</string>
+
+    <string-array name="add_plant_page_spinner_input">
+        <item>Croissance: Lente</item>
+        <item></item>
+    </string-array>
+</resources>
