@@ -18,10 +18,8 @@ class PlantAdapter :RecyclerView.Adapter<PlantAdapter.ViewHolder>() {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.item_horizontal_plant, parent, false)
         return ViewHolder(view)
     }
-
+    override fun onBindViewHolder(holder: ViewHolder, position: Int){}
     override fun getItemCount(): Int = 5
 
-    override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        TODO("Not yet implemented")
-    }
+
 }
